@@ -1,0 +1,77 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+*, ::before, ::after {
+  margin: 0;
+  padding: 0;
+}
+* {
+  font-family: 'Karla', sans-serif;
+  box-sizing: border-box;
+}
+html{
+  font-size: 62.5%;
+}
+h1{
+  font-weight: 800;
+  font-size: 4rem;
+}
+body{
+  background-color: #1F2937;
+  font-size: 1.8rem;
+  padding: 0 5.2em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.white {
+  color: white;
+}
+.green {
+  color: #4ADF86;
+}
+.leading {
+  font-family: 'Inter';
+  color: #D5D4D8;
+}
+#major {
+  width: 191px;
+  margin-top: 5.1em;
+  padding: 0.9em 1.6em;
+  background-color: #10B981;
+  box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-size: 1.6rem;
+  font-weight: 500;
+  font-family: 'Inter';
+}
+#passwords button{
+  width: 50%;
+  max-width: 211px;
+  min-width: 70px;
+  margin-right: 2em;
+  height: 39px;
+  background: #273549;
+  border-radius: 6px;
+  border: none;
+  color: #55F991;
+}
+#passwords {
+  margin-top: 3.5em;
+  border-top: 1px solid #2F3E53;
+  padding-top: 3.5em;
+}
+.copied {
+  color: white;
+  background-color: #55F991;
+  width: 90px;
+  padding: 0.4em;
+  text-align: center;
+  border-radius: 5px;
+  margin-top: 1em;
+  display: none;
+  
+}
+
