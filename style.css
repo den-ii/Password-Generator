@@ -48,7 +48,7 @@ body{
   font-family: 'Inter';
 }
 #passwords button{
-  width: 50%;
+  padding: 1em;
   max-width: 211px;
   min-width: 70px;
   margin-right: 2em;
