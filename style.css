@@ -25,6 +25,9 @@ body{
   flex-direction: column;
   justify-content: center;
 }
+button{
+  cursor: pointer
+}
 .white {
   color: white;
 }
