@@ -34,5 +34,5 @@ function copy() {
   let content = this.textContent;
   navigator.clipboard.writeText(content);
   copyEl.style.display = 'block';
-  setTimeout(() => copyEl.style.display = 'none';, 500)
+  setTimeout(() => copyEl.style.display = 'none', 500)
 }
